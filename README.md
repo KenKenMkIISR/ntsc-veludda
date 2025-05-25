@@ -5,7 +5,7 @@ VELUDDAは画面全体が回転しながらスクロールする私のオリジ�
 RP2040-Zeroでの実行画面  
 ![](./image/veludda_rp2040-zero.jpg)  
 ## 実行ファイル
-binフォルダに実行用uf2ファイルを用意しましたのでPCとUSBケーブルで接続して書き込んでください。書き込むマイコンボードの種類によりそれぞれ以下のファイルを使用します。  
+[Releases](./releases)から実行用uf2ファイルをダウンロードし、PCとUSBケーブルで接続して書き込んでください。binディレクトリにも同じものがあります。書き込むマイコンボードの種類によりそれぞれ以下のファイルを使用します。  
 * veludda-rpp2040.uf2　Raspberry Pi Pico、Raspberry Pi Pico W
 * veludda-rpp2350.uf2　Raspberry Pi Pico 2、Raspberry Pi Pico 2 W
 * veludda-xiao2040.uf2　XIAO RP2040、Tiny2040、RP2040-Zero
@@ -14,7 +14,7 @@ binフォルダに実行用uf2ファイルを用意しましたのでPCとUSBケ
 BASICマイコンシステムMachiKania type PUでもuf2ファイルを書き込むことでプレイできます。MachiKania type PU基板ではveludda-rpp2040.uf2またはveludda-rpp2350.uf2、MachiKania type PU mini基板ではveludda-xiao2040.uf2またはveludda-xiao2350.uf2を書き込んでください。  
 
 MachiKania type PU mini基板  
-![](/image/veludda_machikaniapumini.jpg)  
+![](./image/veludda_machikaniapumini.jpg)  
 ## 接続
 RP2040-ZeroおよびRaspberry Pi Picoでの回路図はそれぞれ以下のようになります。6個のボタンはなくてもUSBキーボードでプレイ可能です。XIAO RP2040、Tiny2040についてはRP2040-Zeroの回路を参考にしてください。ただし、ポートが少ないためボタンが使えませんので、USBキーボードでのプレイのみとなります。Pico 2等RP2350搭載ボードも基本的に接続は同じです。  
 ビデオ信号はRP2040-Zero、XIAO RP2040、Tiny2040ではGP7に、Raspberry Pi PicoではGP15に出力します。テレビのビデオ入力端子に接続すると映像が出ます。  
