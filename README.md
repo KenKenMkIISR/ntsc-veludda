@@ -5,7 +5,7 @@ VELUDDAは画面全体が回転しながらスクロールする私のオリジ�
 RP2040-Zeroでの実行画面  
 ![](./image/veludda_rp2040-zero.jpg)  
 ## 実行ファイル
-[Releases](./releases)から実行用uf2ファイルをダウンロードし、PCとUSBケーブルで接続して書き込んでください。binディレクトリにも同じものがあります。書き込むマイコンボードの種類によりそれぞれ以下のファイルを使用します。  
+Releasesから実行用uf2ファイルをダウンロードし、PCとUSBケーブルで接続して書き込んでください。binディレクトリにも同じものがあります。書き込むマイコンボードの種類によりそれぞれ以下のファイルを使用します。  
 * veludda-rpp2040.uf2　Raspberry Pi Pico、Raspberry Pi Pico W
 * veludda-rpp2350.uf2　Raspberry Pi Pico 2、Raspberry Pi Pico 2 W
 * veludda-xiao2040.uf2　XIAO RP2040、Tiny2040、RP2040-Zero
